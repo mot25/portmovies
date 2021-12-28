@@ -1,0 +1,18 @@
+.content {
+    min-height: calc(100vh - 64px - 70px);
+    margin-top: 50px;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+
+.submit_btn {
+    width: 80px;
+    height: 50px;
+}
+
+
+
