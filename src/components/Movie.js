@@ -11,8 +11,8 @@ class Movie extends React.Component {
   render() {
     return (
       <div className="content container">
-        {this.state.arr.map((e, i) => {
-          return <div>{e.Title}</div>;
+        {this.state.arr.map(item => {
+            // return <h1>{item.Title}</h1>
         })}
       </div>
     );
