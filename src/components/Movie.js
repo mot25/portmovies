@@ -9,9 +9,13 @@ class Movie extends React.Component {
   render() {
     const { Title, Year, imdbID, Type, Poster } = this.props.arr;
     return (
-      <div  className="card">
+      <div key={imdbID} className="card">
         <div className="card-image waves-effect waves-block waves-light">
-          <img className="activator" src={Poster} />
+          <img
+            className="activator"
+            src={
+              Poster !== "N/A" ? Poster : `https://via.placeholder.com/468x450?text=${Title}` }
+          />
         </div>
         <div className="card-content">
           <span className="card-title activator grey-text text-darken-4">
