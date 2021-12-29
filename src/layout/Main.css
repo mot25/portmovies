@@ -6,6 +6,11 @@ form {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.input-search {
+    order: 1;
 }
 
 
@@ -15,4 +20,15 @@ form {
 }
 
 
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-content > div {
+    width: 300px;
+    height: auto;
+    margin-bottom: 80px;
+}
 

@@ -1,8 +1,6 @@
 import React from "react";
 
-import Movie from './Movie'
-
-
+import Movie from "./Movie";
 
 class Movies extends React.Component {
   constructor(props) {
@@ -12,8 +10,10 @@ class Movies extends React.Component {
 
   render() {
     return (
-      <div>
-        <Movie arrMovies={this.props.arrSearch} />
+      <div  className='main-content'>
+        {this.props.arrMovies.map(item  => {
+          return <Movie key={item.imdbID} arr={item} />
+        })}
       </div>
     );
   }
