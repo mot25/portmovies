@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.dec6e659.css",
-    "main.js": "/static/js/main.0b98b42d.js",
-    "static/js/787.256c5b88.chunk.js": "/static/js/787.256c5b88.chunk.js",
-    "index.html": "/index.html",
-    "main.dec6e659.css.map": "/static/css/main.dec6e659.css.map",
-    "main.0b98b42d.js.map": "/static/js/main.0b98b42d.js.map",
-    "787.256c5b88.chunk.js.map": "/static/js/787.256c5b88.chunk.js.map"
+    "main.css": "/portmovies/static/css/main.dec6e659.css",
+    "main.js": "/portmovies/static/js/main.72b2e1f3.js",
+    "static/js/787.256c5b88.chunk.js": "/portmovies/static/js/787.256c5b88.chunk.js",
+    "index.html": "/portmovies/index.html",
+    "main.dec6e659.css.map": "/portmovies/static/css/main.dec6e659.css.map",
+    "main.72b2e1f3.js.map": "/portmovies/static/js/main.72b2e1f3.js.map",
+    "787.256c5b88.chunk.js.map": "/portmovies/static/js/787.256c5b88.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dec6e659.css",
-    "static/js/main.0b98b42d.js"
+    "static/js/main.72b2e1f3.js"
   ]
 }
