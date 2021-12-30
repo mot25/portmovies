@@ -20,7 +20,7 @@ class Main extends React.Component {
     let type = e.target.group1.value;
     console.log("type", type);
     await fetch(
-      `http://www.omdbapi.com/?apikey=${"48c07f18"}&s=${e.target.search.value.trim()}${
+      `http://www.omdbapi.com/?apikey=${API_KEY}&s=${e.target.search.value.trim()}${
         type == "all" ? "" : type == "series" ? "&type=series" : "&type=movie"
       }`
     )
