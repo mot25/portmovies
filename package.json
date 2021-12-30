@@ -2,7 +2,6 @@
   "name": "react-1",
   "version": "0.1.0",
   "private": true,
-  "homepages": "http://mot25.github.io/portmovies/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -22,6 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "http://mot25.github.io/portmovies",
   "eslintConfig": {
     "extends": [
       "react-app",
